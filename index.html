@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="index.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <audio id="my_audio" controls preload="none" hidden>
+    <source src="./pong-sound.wav" type="audio/wav">
+  </audio>
+  <button id="play-btn">play</button>
+  <div class="score">
+    <div id="player-score">0</div>
+    <div id="enemy-score">0</div>
+  </div>
+  <div id="ball"></div>
+  <div class="paddle left" id="player-paddle"></div>
+  <div class="paddle right" id="enemy-paddle"></div>
+  <div class="buttons">
+    <button id="top-btn">top</button>
+    <button id="bottom-btn">bottom</button>
+  </div>
+</body>
+
+</html>
