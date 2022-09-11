@@ -32,8 +32,8 @@
 
 
 
-import Ball from "./Ball";
-import Paddle from "./Paddle";
+// import Ball from "./Ball";
+// import Paddle from "./Paddle";
 const playBtn = document.getElementById('play-btn')
 const ball = new Ball(document.getElementById('ball'))
 const player_paddle = new Paddle(document.getElementById('player-paddle'))
